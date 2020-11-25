@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/litera/bootstrap.min.css"
+        integrity="sha384-Gr51humlTz50RfCwdBYgT+XvbSZqkm8Loa5nWlNrvUqCinoe6C6WUZKHS2WIRx5o" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping Cart </title>
+</head>
+
+<body>
+
+
+
+    <section>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary pt-1 pb-2">
+            <a class="navbar-brand" href="#">Shopping Cart</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Cart</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            
+                        </div>
+                    </li> -->
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li> -->
+
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <div id="show_alert"></div>
+
+    <div class="container-lg mb-4">
+
+        <section class="mt-4">
+            <div class="row">
+                <div class="col-md-3 mt-4">
+                    <div class="card text-white bg-primary">
+                        <img class="card-img-top cart_one_img" src="image/bruce-mars-8YG31Xn4dSw-unsplash.jpg"
+                            class="img-fluid img-thumbnail" width="200" height="250" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title cart_one_title">Title 01</h4>
+                            <p class="card-text"><button id="item_one" class="btn btn-light">Add to Cart</button></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card text-white bg-primary">
+                        <img class="card-img-top cart_two_img" src="image/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"
+                            class="img-fluid img-thumbnail" width="200" height="250" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title cart_two_title">Title 02</h4>
+                            <p class="card-text"><button id="item_two" class="btn btn-light">Add to Cart</button></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card text-white bg-primary">
+                        <img class="card-img-top cart_three_img"
+                            src="image/linkedin-sales-navigator-pAtA8xe_iVM-unsplash.jpg"
+                            class="img-fluid img-thumbnail" width="200" height="250" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title cart_three_title">Title 03</h4>
+                            <p class="card-text"><button id="item_three" class="btn btn-light">Add to Cart</button></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <div class="card text-white bg-primary">
+                        <img class="card-img-top cart_four_img" src="image/austin-distel-7uoMmzPd2JA-unsplash.jpg"
+                            class="img-fluid img-thumbnail" width="200" height="250" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title cart_four_title">Title 04</h4>
+                            <p class="card-text"><button id="item_four" class="btn btn-light">Add to Cart</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+        <h1>Cart List</h1>
+        <hr>
+        <ul class="list-unstyled" id="cart-item-list">
+            <!-- <li class="dropdown-item"><img src="image/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" width="20" height="20" alt="" class="img-fluid"> Title  <a href=""> X</a></li> -->
+        </ul>
+        <button class="btn btn-danger" id="clearcart">Clear Cart</button>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
